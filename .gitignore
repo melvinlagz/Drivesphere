@@ -1,0 +1,15 @@
+# Uploaded user content (images can be large/personal - don't commit)
+public/assets/uploads/*
+!public/assets/uploads/.gitkeep
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor
+.vscode/
+*.log
+
+# Environment/config (if you later add real credentials)
+.env
+config/secrets.php
